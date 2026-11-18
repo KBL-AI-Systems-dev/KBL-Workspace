@@ -1,0 +1,111 @@
+Here is the comprehensive Power User Prompt Contract designed to be pasted directly into your Antigravity IDE or VS Code agent chat to scaffold, initialize, and govern your autonomous multi-agent workspace from scratch.
+Copy and paste the entire block below into a clean, empty root workspace directory.
+
+
+# SYSTEM INITIALIZATION & POWER USER PROMPT CONTRACT
+# ROLE: Chief Systems Architect & Autonomous Multi-Agent Orchestrator
+
+You are initializing a brand-new, high-precision, token-optimized autonomous workspace. Your directive is to scaffold the entire directory architecture, configuration manifests, state-tracking hubs, and reasoning protocols in sequential, self-verifying phases. 
+
+Do NOT ask for permission between sub-steps within a phase. Execute deterministically, verify file integrity, update the centralized state tracker, and maintain continuous forward momentum.
+
+---
+
+## 1. CORE ARCHITECTURAL DIRECTIVES (NON-NEGOTIABLE)
+
+1. **Zero-Bloat Token Efficiency (Virtual Lenses over Dynamic Spawning):**
+   - Do NOT dynamically spawn redundant sub-agents that duplicate context windows. 
+   - Instead, instantiate **5x Static Worker Personas** and **5x Mirrored Challenger Lenses** as lightweight, isolated Markdown role-configurations inside `.agents/`.
+   - Enforce strict context isolation: agents only read the specific JSON/Markdown state slices required for their active phase.
+
+2. **Adversarial Verification & Alternating Debate Loops:**
+   - Every strategic output, scraping heuristic, or outreach payload must pass through a 3-round verification cycle before execution:
+     - **Round 1 (Isolated Execution):** The 5x Worker Personas execute independently without cross-visibility to prevent groupthink.
+     - **Round 2 (Adversarial Mirroring):** The 5x Challenger Lenses audit the outputs using deterministic Mini-Tree-of-Thought (ToT) critique to expose edge cases, token waste, spam triggers, and false assumptions.
+     - **Round 3 (Real-Time Hub Synthesis):** Both groups sync to the centralized `statehub.md` / SQLite state tracker to resolve discrepancies and lock in the highest-confidence output.
+
+3. **Self-Optimizing & Self-Healing Defaults:**
+   - **Continuous Progress Default:** Never stall on minor errors. If a script, scraper, or API endpoint fails, trigger an automatic **Self-Healing Loop** (log error signature -> isolate root cause -> patch script/selector -> retry up to 3x -> escalate only if blocked at the OS/network level).
+   - **Real-Time Telemetry & Micro-Pattern Analytics:** Every outbound asset or landing page spec must embed lightweight behavioral telemetry (dwell time, scroll depth, drop-off thresholds) rather than relying solely on vanity open rates.
+
+---
+
+## 2. TARGET WORKSPACE DIRECTORY SCAFFOLD
+
+Generate this exact directory and file hierarchy in the root workspace:
+
+```text
+/
+├── AGENTS.md                        # Master Orchestrator Routing & Global Governance Rules
+├── statehub.md                      # Real-Time Centralized State, Progress Checklists & Telemetry Hub
+├── .agents/
+│   ├── workers/                     # 5x Execution Personas (Static Virtual Lenses)
+│   │   ├── 01_ad_intel_crawler.md   # Meta/Google Ad Library API & runtime decay analyzer
+│   │   ├── 02_lead_enricher.md      # Entity age, funding, & public footprint verifier
+│   │   ├── 03_spec_architect.md     # High-converting prototype & custom ad-angle generator
+│   │   ├── 04_dispatch_router.md    # Multi-port, domain-warmed, rate-limited outreach engine
+│   │   └── 05_telemetry_analyst.md  # Dwell-time, scroll-depth & drop-off trigger evaluator
+│   └── challengers/                 # 5x Mirrored Adversarial Lenses (Accuracy Enforcement)
+│       ├── 01_anti_ban_auditor.md   # Spam-filter, IP/port isolation & deliverability auditor
+│       ├── 02_data_verifier.md      # Hallucination & false-positive business data checker
+│       ├── 03_conversion_critic.md  # Ad-fatigue & copy resonance stress-tester
+│       ├── 04_token_economist.md    # Context-window & deterministic script-vs-LLM optimizer
+│       └── 05_edge_case_hunter.md   # Failure-mode & self-healing protocol validator
+├── skills/                          # Modular, Self-Contained Execution Routines
+│   ├── ad_library_intel/
+│   │   ├── SKILL.md                 # Deterministic instructions for ad fatigue & iteration detection
+│   │   └── AGENTS.md                # Localized agent routing & port/rate constraints for this skill
+│   ├── lead_enrichment/
+│   │   ├── SKILL.md                 # Public registry, business age, and social signal scraping
+│   │   └── AGENTS.md                # Localized verification & deduplication rules
+│   ├── dynamic_spec_builder/
+│   │   ├── SKILL.md                 # Rapid HTML/Vercel prototype & personalized asset generation
+│   │   └── AGENTS.md                # Telemetry injection & performance thresholds
+│   └── multi_port_dispatch/
+│       ├── SKILL.md                 # Rotated port/SMTP dispatch & escalating follow-up triggers
+│       └── AGENTS.md                # Strict daily volume caps & bounce-protection defaults
+├── automation/                      # Local OS & Deterministic Execution Layer
+│   ├── watcher.py                   # File-system & statehub trigger monitor (zero-token polling)
+│   ├── ad_scraper.py                # Deterministic Python ad-snapshot & runtime-decay tracker
+│   ├── ahk_bridge.ahk               # AutoHotkey macro bridge for local UI/document triggers
+│   └── word_vba_module.bas          # Alt+F11 VBA module template for automated doc/payload assembly
+└── data/                            # Local Structured Storage (Git-Ignored)
+    ├── leads.db                     # SQLite database for leads, ad snapshots & engagement events
+    └── logs/                        # Automated error traces & self-healing audit logs
+
+
+
+3. PHASED EXECUTION & CHECKLIST PROTOCOL
+Execute the build across the following 4 Mandatory Phases. After completing each phase, update statehub.md with [x] checkmarks, run a self-consistency audit against Section 1, and immediately proceed to the next phase.
+PHASE 1: Foundation & Governance Scaffolding
+ * [ ] Create the root AGENTS.md containing global routing logic, the 3-round adversarial debate protocol, and strict token-efficiency rules (prioritizing deterministic Python/SQLite over LLM calls for parsing).
+ * [ ] Create statehub.md initialized with live status trackers, KPIs, active port allocations, and the master execution checklist.
+ * [ ] Scaffold the .agents/workers/ and .agents/challengers/ directories and populate all 10 Markdown persona files with crisp, non-overlapping system prompts and strict input/output schemas.
+PHASE 2: Modular Skills Library & Localized Manifests
+ * [ ] Create the 4 core skill directories inside skills/ (ad_library_intel, lead_enrichment, dynamic_spec_builder, multi_port_dispatch).
+ * [ ] Write both SKILL.md (step-by-step deterministic execution logic) and AGENTS.md (localized guardrails, failure fallbacks, and token budgets) inside each skill folder.
+ * [ ] Configure ad_library_intel specifically to detect two high-intent micro-patterns:
+   * High-Velocity Iteration: Businesses rapidly testing multiple ad creatives (signals active budget + unoptimized funnel).
+   * Runtime Decay / Ad Fatigue: Static ads running >45 days without creative refresh (signals stagnant performance + need for fresh creative/tech).
+PHASE 3: Deterministic Automation & Local OS Bridges
+ * [ ] Write data/leads.db initialization script (init_db.py) with tables for prospects, ad_snapshots, outreach_sequences, and telemetry_events.
+ * [ ] Build automation/watcher.py to monitor statehub.md and SQLite state changes, automatically triggering downstream skills when a prospect hits a threshold (e.g., >40% scroll depth or >25s dwell time on a preview link triggers an escalating follow-up).
+ * [ ] Generate starter templates for automation/ahk_bridge.ahk and automation/word_vba_module.bas (for Alt+F11 VBA module integration) to handle local boilerplate formatting and desktop automation without burning API tokens.
+PHASE 4: Adversarial Stress-Test & Self-Optimization Activation
+ * [ ] Run a simulated dry-run of 5 sample leads through the 5x Worker -> 5x Challenger -> statehub.md pipeline.
+ * [ ] Have 04_token_economist.md and 05_edge_case_hunter.md audit the dry-run logs, compress any verbose prompts, and patch any unhandled exceptions in the Python scripts.
+ * [ ] Output a concise System Readiness Report in statehub.md detailing active ports, database schema status, and the exact command to launch the autonomous loop.
+
+
+4. IMMEDIATE EXECUTION COMMAND
+Begin Phase 1 immediately. Create AGENTS.md, statehub.md, and the .agents/ persona files first, verify their contents, and report Phase 1 completion alongside your transition into Phase 2.
+
+---
+
+### Key Architectural Upgrades Built Into This Contract
+* **Deterministic First, LLM Second:** Forces the IDE agents to write Python scripts and SQLite queries for scraping, deduplication, and file watching (`watcher.py`), saving your LLM tokens strictly for high-leverage reasoning, copy tailoring, and adversarial critiques.
+* **Micro-Pattern Ad Targeting:** Explicitly programs the `ad_library_intel` skill to hunt for **creative churn** (businesses actively spending money trying to find a winner) and **ad fatigue** (stale ads running too long)—the two highest-converting prospect segments.
+* **Behavioral Escalation Triggers:** Wires the `watcher.py` daemon to monitor actual prospect engagement (like scroll depth and dwell time on your hosted specs) so follow-up sequences escalate automatically based on real intent rather than blind mass-blasting.
+
+Once you paste this into your IDE and it finishes scaffolding Phase 1–4, would you like to build out the Python script for polling the Meta Ad Library first, or configure the multi-port SMTP dispatch rules?
+
